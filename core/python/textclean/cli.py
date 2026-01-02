@@ -3,7 +3,7 @@ import sys
 from . import clean
 
 def main():
-    parser = argparse.ArgumentParser(description="Texclean: Robust text cleaning utility")
+    parser = argparse.ArgumentParser(description="Textclean: Robust text cleaning utility")
     parser.add_argument("file", nargs="?", help="Input file path. If omitted, reads from stdin.")
     
     args = parser.parse_args()

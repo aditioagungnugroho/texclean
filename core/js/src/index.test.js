@@ -1,7 +1,7 @@
 import { describe, it, expect } from "vitest";
-import { clean } from "./index";
+import { clean } from "../src/index";
 
-describe("texclean", () => {
+describe("textclean", () => {
   it("should trim whitespace", () => {
     expect(clean("  hello world  ")).toBe("hello world");
   });

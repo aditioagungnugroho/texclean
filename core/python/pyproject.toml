@@ -1,5 +1,5 @@
 [project]
-name = "texclean"
+name = "textclean-py"
 version = "0.1.0"
 description = "A robust text cleaning library for Python"
 readme = "README.md"
@@ -9,11 +9,11 @@ requires-python = ">=3.8"
 dependencies = []
 
 [project.urls]
-Homepage = "https://github.com/aditioagungnugroho/texclean"
-Repository = "https://github.com/aditioagungnugroho/texclean"
+Homepage = "https://github.com/aditioagungnugroho/textclean"
+Repository = "https://github.com/aditioagungnugroho/textclean"
 
 [project.scripts]
-texclean = "texclean.cli:main"
+textclean = "textclean.cli:main"
 
 [build-system]
 requires = ["setuptools>=61.0"]

@@ -1,5 +1,5 @@
 import pytest
-from texclean import clean
+from textclean import clean
 
 def test_trim_whitespace():
     assert clean('  hello world  ') == 'hello world'

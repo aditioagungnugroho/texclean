@@ -1,4 +1,4 @@
-# texclean
+# textclean
 
 A multi-language (Python, JavaScript) text cleaning library with CLI support.
 
@@ -17,7 +17,7 @@ A multi-language (Python, JavaScript) text cleaning library with CLI support.
 ### JavaScript
 
 ```javascript
-import { clean } from "texclean";
+import { clean } from "textclean";
 
 const text = "  Hello   World! \u200B ";
 const cleaned = clean(text, {
@@ -31,7 +31,7 @@ console.log(cleaned); // "Hello World!"
 ### Python
 
 ```python
-from texclean import clean
+from textclean import clean
 
 text = "  Hello   World! \u200B "
 cleaned = clean(text, options={
@@ -46,10 +46,10 @@ print(cleaned) # "Hello World!"
 
 ```bash
 # Process a file
-texclean input.txt > output.txt
+textclean input.txt > output.txt
 
 # Pipe from stdin
-echo "  Hello   World!  " | texclean
+echo "  Hello   World!  " | textclean
 ```
 
 ## Structure
